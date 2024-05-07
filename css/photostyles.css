@@ -1,0 +1,375 @@
+/* Main Desktop */
+@media (min-width: 1703px) {
+
+    html{
+    background-color: #FFF8F0;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    padding: 0;
+
+}
+
+.color-orange{
+    color: #F99E2E;
+}
+
+h1, li{
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    list-style-type: none;
+}
+
+
+h3, footer{
+    font-family: "raleway", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FFF8F0;
+    font-size: 27px;
+    padding-right: 48px;
+}
+
+
+.photo-grid{
+    padding-top: 260px;
+    line-height: 0;
+      -webkit-column-count: 4;
+      -webkit-column-gap: 10px;
+      -moz-column-count: 4;
+      -moz-column-gap: 10px;
+      column-count: 4;
+      column-gap: 10px;
+      position: relative;
+    }
+    
+    .photo-grid img {
+        width: 100%;
+        height: auto !important;
+        margin-bottom: 10px;
+        z-index: 1;
+      }
+      
+      .photo-margin{
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      h6{
+        font-family: "raleway", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        list-style-type: none;
+        font-size: 200px;
+        letter-spacing: 8.088px;
+        z-index: 0;
+        margin: 0;
+        margin-left: 20px;
+        padding-bottom: 500px;
+        position: absolute;
+        color: #F99E2E;
+      }
+
+.nav{
+    display: inline-flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    gap: 1162px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration-line: none;
+    color: #000;
+}
+
+a:hover{
+    color: #F99E2E;
+}
+.nav-item{
+    display: inline-flex;
+    align-items: flex-start;
+    padding-left: 41px;
+}
+
+.DesignHeading{
+    text-transform: uppercase;
+    right: 40px;
+
+}
+
+.line1{
+    width: 1400px;
+    border-top: 1.5px solid #F99E2E;
+    top: -26px;
+    left: 100px;
+    position: relative;
+}
+
+.Gen-margin{
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.Main-margin{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    }
+
+
+
+.Intro{
+    line-height: 130.314%;
+    font-size: 36px;
+    letter-spacing: 0.72px;
+    width: 1096px;
+    height: 190px;
+    flex-shrink: 0;
+}
+
+.proj-imgs{
+   margin-left: 250px;
+}
+
+.nav-border{
+    width: auto;
+    border-top: 1.2px solid #000;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+
+footer{
+    bottom: 0px;
+    background: #292929 ;
+}
+.footer-content{
+    display: inline-flex;
+    align-items: center;
+}
+.footer-line{
+    stroke-width: 1px;
+    stroke: #FFF8F0;
+    padding-left: 21px;
+    flex-shrink: 0;
+    padding-bottom: 10px;
+}
+
+.b-icon{
+    padding-left: 48px;
+    padding-top: 10px;
+}
+
+.i-icon{
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+p.copyright{
+    font-family: "raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF8F0;
+    font-size: 20px;
+    line-height: 130.314%;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: right;
+}
+
+}
+
+/* Desktop */
+@media (min-width: 1631px) {
+
+
+    html{
+        background-color: #FFF8F0;
+    }
+    
+    ul{
+        padding: 0;
+    
+    }
+
+    .color-orange{
+        color: #F99E2E;
+    }
+    
+    h1, li{
+        font-family: "raleway", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        list-style-type: none;
+    }
+    
+    .nav{
+        display: inline-flex;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        gap: 1162px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .nav-item{
+        display: inline-flex;
+        align-items: flex-start;
+        padding-left: 41px;
+    }
+
+    a {
+        text-decoration-line: none;
+        color: #000;
+    }
+    
+    a:hover{
+        color: #F99E2E;
+    }
+
+    .DesignHeading{
+        text-transform: uppercase;
+        right: 40px;
+    
+    }
+    
+    .line1{
+        width: 1400px;
+        border-top: 1.5px solid #F99E2E;
+        top: -26px;
+        left: 100px;
+        position: relative;
+    }
+    
+    .Gen-margin{
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    
+    .Main-margin{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+    
+    .Intro{
+        line-height: 130.314%;
+        font-size: 36px;
+        letter-spacing: 0.72px;
+        width: 1096px;
+        height: 190px;
+        flex-shrink: 0;
+    }
+    
+    .proj-imgs{
+       margin-left: 250px;
+    }
+    }
+
+/* Mobile */
+@media (max-width: 600px) {
+
+
+    html{
+        background-color: #FFF8F0;
+        overflow-x: hidden;
+    }
+    
+    .color-orange{
+        color: #F99E2E;
+    }
+
+    ul{
+        padding: 0;
+    
+    }
+    
+    h1, li{
+        font-family: "raleway", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        list-style-type: none;
+    }
+    
+    .nav{
+        display: inline-flex;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        gap: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    .nav-item{
+        display: inline-flex;
+        align-items: flex-start;
+        padding-left: 41px;
+    }
+    
+    .DesignHeading{
+        text-transform: uppercase;
+        right: 40px;
+    
+    }
+    
+    .line1{
+        width: 1400px;
+        border-top: 1.5px solid #F99E2E;
+        top: -26px;
+        left: 100px;
+        position: relative;
+    }
+    
+    .Gen-margin{
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    
+    .Main-margin{
+        margin-left: 50px;
+        margin-right: 45px;
+    }
+    
+    
+    .Intro{
+        line-height: 130.314%;
+        font-size: 36px;
+        letter-spacing: 0.72px;
+        width: 560px;
+        height: 390px;
+        flex-shrink: 0;
+
+    }
+    
+    .proj-imgs{
+       margin-left: 250px;
+    }
+    }
+    
